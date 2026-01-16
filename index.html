@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Instagram Multi Video Player</title>
+<link rel="stylesheet" href="style.css">
+<script async src="https://www.instagram.com/embed.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Instagram Multi Video Player</h1>
+
+<input type="text" id="link" placeholder="Paste Instagram Reel Link">
+<select id="count">
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option value="20">20</option>
+<option value="25">25</option>
+<option value="30">30</option>
+</select>
+<button onclick="generate()">Generate</button>
+
+<div id="videos" class="grid"></div>
+
+<a href="about.html" class="next">Next Page</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
